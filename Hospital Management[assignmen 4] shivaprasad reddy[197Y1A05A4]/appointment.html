@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>bookappointment</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+
+</head>
+<style type="text/css">
+	#main
+	{
+		border: 3px double black;
+		height: 70rem;
+		width: 50%;
+		margin-top: 5%;
+		margin-left: 20%;
+		margin-bottom: 5%;
+	}
+	select
+	{
+		font-size: 25px;
+		border-radius: 5px;
+	}
+	button
+	{
+		font-size: 20px;
+		border-radius: 5px;
+	}
+	#i1
+	{
+		font-size: 20px;
+		border-radius: 5px;
+		border: 2px solid black;
+	}
+	img
+	{
+		width: 80px;
+		height: 80px;
+	}
+	body
+	{
+		background-color:rgb(160, 200, 150);
+	}
+</style>
+<body>
+	<div id="main">
+		<div id="citys">
+		<h3>01:select your city</h3>
+		<a href="#"> <button type = "submit" name = "appointment"  value = "myimage1">
+   					<img src="chaminar.jpeg"/>
+			      </button></a>
+
+		<a href="#"> <button type = "submit" name = "appointment"  value = "myimage1">
+   					<img src="mumbai.jpeg"/>
+			      </button></a>
+		<a href="#"> <button type = "submit" name = "appointment"  value = "myimage1">
+   					<img src="delhi.jpeg"/>
+			      </button></a>
+		<a href="#"> <button type = "submit" name = "appointment"  value = "myimage1">
+   					<img src="bengaluru.jpeg"/>
+			      </button></a>
+
+		</div><br><br>
+		<h3>02:Select Speciality</h3>
+		<h4>Private online consultaions with verifed doctors in all specialists</h4>
+		<input type="text" name="specialists" id="i1" placeholder="select specialisation"><br><br>
+		<h3>03:select the hospitals near you</h3>
+		<div id="op">
+			<select>
+				<option>hyderabad</option>
+				<option>Bengalur</option>
+				<option>chennai</option>
+			</select><br><br>
+			<h4><b>Clinics</b></h4><select>
+				<option>hyderabad</option>
+				<option>Bengalur</option>
+				<option>chennai</option>
+			</select><br><br>
+		</div>
+
+		<button class="btn-primary bn">Continue</button>
+	</div>
+</body>
+</html>
